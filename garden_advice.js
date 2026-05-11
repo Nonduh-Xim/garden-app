@@ -14,4 +14,5 @@ function waterPlants(month) {
 }
 
 // Call the function with June
+// Call the function
 waterPlants("June");
