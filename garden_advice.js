@@ -1,13 +1,17 @@
-const month = "June";
+// Function to display watering advice
+function waterPlants(month) {
 
-if (month === "June") {
-  console.log("Water plants less frequently.");
+  // Winter season advice
+  if (month === "June") {
+    console.log("Water plants less frequently.");
+  }
+
+  // Summer season advice
+  else if (month === "December") {
+    console.log("Water plants more often.");
+  }
+
 }
 
-if (month === "December") {
-  console.log("Water plants more often.");
-}
-
-// TODO:
-// 1. Convert repeated logic into functions
-// 2. Add comments to explain the code
+// Call the function with June
+waterPlants("June");
